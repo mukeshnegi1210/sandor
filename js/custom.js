@@ -2,13 +2,7 @@
 
 
 $(function () {
-  $('#mixit-container').mixItUp();
-
-  var $gallery = new SimpleLightbox('#Gallery1 a');
-  var $gallery2 = new SimpleLightbox('#Gallery2 a');
-
  
-
   handleFixedHeader();
 
   // handling on scroll header

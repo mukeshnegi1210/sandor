@@ -76,6 +76,7 @@ header .primary-menu li:last-child {
 
 #Banner .banner-video {
     width: 100%;
+    opacity: 0.9;
 }
 
 /* Discovery =========================== */
@@ -158,6 +159,11 @@ header .primary-menu li:last-child {
     display: inline-block;
 
 }
+
+#Team .team-members-list .team-member-box p {
+    font-size: 16px;
+}
+
 /* #Value ============================== */
 
 #Value {
@@ -180,21 +186,160 @@ header .primary-menu li:last-child {
     background: url(../images/bg-white.png) no-repeat center;
     background-size: cover;
 }
-#Lords .content{
+
+#Lords .content {
     max-width: 591px;
-    
+
+}
+
+/* PrivateSale =========================== */
+#PrivateSale {
+    padding: 75px 0;
+    background: url(../images/privatesale.png) no-repeat center;
+    background-size: cover;
+}
+
+#PrivateSale .content h2 {
+    font-size: 40px;
+}
+
+#PrivateSale .content h6 {
+    font-size: 24px;
+    max-width: 63%;
+    margin-left: auto;
+}
+
+#PrivateSale .content h5 {
+    font-size: 36px;
+
+}
+
+
+
+/* Roadmap ============================= */
+#Roadmap {
+    padding: 75px 0;
+    background: url(../images/roadmap-bg.png) no-repeat center;
+    background-size: cover;
+}
+
+#Roadmap .container {
+    max-width: 1100px;
+
+}
+
+#Roadmap .timeline-box-list-outer {
+    position: relative;
+}
+
+#Roadmap .timeline-box-list-outer:before {
+    content: "";
+    position: absolute;
+    top: calc(50% + 15px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(180deg, rgba(176, 143, 88, 0.1) 0%, #FFE6BE 48.96%, rgba(176, 143, 88, 0.1) 100%);
+    transform: translateY(-50%);
+}
+
+#Roadmap .timeline-box-list .timeline-box {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 100%),
+        linear-gradient(1.42deg, #A77F56 1.09%, rgba(0, 0, 0, 0) 98.69%);
+    border: 2px solid;
+    border-image-source: linear-gradient(1.42deg, #A77F56 1.09%, rgba(0, 0, 0, 0) 98.69%);
+    border-image-slice: 1;
+    display: inline-block;
+    padding: 20px;
+    font-weight: 300;
+    position: relative;
+}
+
+#Roadmap .timeline-box-list .timeline-box::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #000000;
+    border: 2px solid #DBBD8C;
+    bottom: -42px;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+#Roadmap .timeline-box-list .timeline-box:nth-child(1) {
+    margin-bottom: 60px;
+}
+
+#Roadmap .timeline-box-list .timeline-box:nth-child(2) {
+    margin-left: 20%;
+    margin-bottom: 60px;
+}
+
+#Roadmap .timeline-box-list .timeline-box:nth-child(3) {
+    margin-left: 25%;
+    background: linear-gradient(177.6deg, rgba(0, 0, 0, 0.5) 1.82%, rgba(0, 0, 0, 0.1) 97.89%),
+        linear-gradient(180deg, #A77F56 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+#Roadmap .timeline-box-list .timeline-box:nth-child(4) {
+    margin-left: 25%;
+    background: linear-gradient(177.6deg, rgba(0, 0, 0, 0.5) 1.82%, rgba(0, 0, 0, 0.1) 97.89%),
+        linear-gradient(180deg, #A77F56 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+#Roadmap .timeline-box-list .timeline-box:nth-child(3)::before,
+#Roadmap .timeline-box-list .timeline-box:nth-child(4)::before {
+    bottom: auto;
+    top: -38px;
+}
+
+
+#Roadmap .timeline-box-list .timeline-box h4 {
+    font-size: 32px;
 }
 
 /* Contacts ============================== */
-#Contacts{
+#Contacts {
     padding: 75px 0;
     background: url(../images/contact-bg.png) no-repeat center;
     background-size: cover;
 }
 
 /* footer ============================== */
-footer{
+footer {
     padding: 50px 0;
     background: url(../images/footer-bg.png) no-repeat center;
     background-size: cover;
+}
+
+footer .footer-links .container,
+footer .info-links .container,
+footer .footer-social-links .container {
+    max-width: 1200px;
+}
+
+footer .footer-links {
+    font-size: 36px;
+}
+
+footer .info-links {
+    font-size: 32px;
+}
+
+footer .footer-social-links ul li+li {
+    margin-left: 20px;
+
+}
+
+footer .footer-social-links ul li a {
+    transition: all 300ms ease-in;
+    display: inline;
+
+}
+
+footer .footer-social-links ul li a:hover {
+    transform: translateY(-5px)
 }
