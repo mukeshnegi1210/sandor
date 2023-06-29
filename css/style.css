@@ -1,0 +1,200 @@
+header .primary-menu .logo {
+    max-width: 300px;
+}
+
+header .primary-menu li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+header .primary-menu li a:hover {
+    color: #DBBD8C;
+}
+
+header .primary-menu li:last-child {
+    padding-right: 0;
+}
+
+/* banner ============================== */
+#Banner {
+    position: relative;
+    margin-top: 85px;
+    display: flex;
+}
+
+#Banner .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 1;
+}
+
+#Banner .banner-content h1 {
+    font-weight: 500;
+
+}
+
+#Banner .banner-content h1 .small {
+    font-size: 48px;
+    font-weight: 300;
+
+    display: block;
+}
+
+#Banner .banner-content .banner-content-inner {
+    max-width: 60%;
+}
+
+#Banner .banner-content .banner-socials {
+    margin-top: 75px;
+}
+
+#Banner .banner-content .banner-socials p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #D1D1D1;
+}
+
+#Banner .banner-content .banner-socials .banner-social-icons li+li {
+    margin-left: 10px;
+}
+
+#Banner .banner-content .banner-socials .banner-social-icons li a {
+    display: inline-block;
+    transition: all 300ms ease-in;
+}
+
+#Banner .banner-content .banner-socials .banner-social-icons li a:hover {
+    transform: translateY(-5px);
+}
+
+#Banner .banner-video {
+    width: 100%;
+}
+
+/* Discovery =========================== */
+#Discovery {
+    background: url(../images/discovery-bg.png) no-repeat center fixed;
+    background-size: cover;
+    padding: 75px 0;
+}
+
+#Discovery .container {
+    max-width: 1185px;
+}
+
+#Discovery .discovery-features .disovery-box .img-icon {
+    min-height: 150px;
+}
+
+#Discovery .discovery-features .disovery-box h4 {
+    text-transform: uppercase;
+    min-height: 60px;
+
+}
+
+
+/* Team =================================== */
+#Team {
+    padding: 75px 0;
+    background: url(../images/bg-white.png) no-repeat center;
+    background-size: cover;
+
+}
+
+#Team .title span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Team .title span::after,
+#Team .title span::before {
+    content: "";
+    height: 3px;
+    width: 100px;
+    display: inline-block;
+    background-color: #DBBD8C;
+    margin: 0 10px;
+}
+
+#Team .team-members-list .team-member-box .member-picture {
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+#Team .team-members-list .team-member-box .member-picture .overlay {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    max-height: 50%;
+    height: 50%;
+    background-color: rgba(217, 217, 217, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms ease-in;
+}
+
+#Team .team-members-list .team-member-box .member-picture:hover .overlay {
+    bottom: 0;
+}
+
+#Team .team-members-list .team-member-box .member-picture .overlay .member-social-icon li+li {
+    margin-left: 10px;
+}
+
+#Team .team-members-list .team-member-box .member-picture .overlay .member-social-icon li a {
+    display: inline-block;
+
+}
+/* #Value ============================== */
+
+#Value {
+    padding: 75px 0;
+    background: url(../images/value-bg.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+#Value p {
+    font-weight: 300;
+}
+
+#Value h4 {
+    font-size: 36px;
+}
+
+/* Lords ======================= */
+#Lords {
+    padding: 40px 0;
+    background: url(../images/bg-white.png) no-repeat center;
+    background-size: cover;
+}
+#Lords .content{
+    max-width: 591px;
+    
+}
+
+/* Contacts ============================== */
+#Contacts{
+    padding: 75px 0;
+    background: url(../images/contact-bg.png) no-repeat center;
+    background-size: cover;
+}
+
+/* footer ============================== */
+footer{
+    padding: 50px 0;
+    background: url(../images/footer-bg.png) no-repeat center;
+    background-size: cover;
+}
