@@ -2,7 +2,7 @@
 
 
 $(function () {
- 
+
   handleFixedHeader();
 
   // handling on scroll header
@@ -49,13 +49,15 @@ $(function () {
     $('.primary-menu-outer').removeClass('active');
   })
   // block scroll ===============================
-  $('.primary-menu li a, .footer-quick-links li a').click(function () {
+  $('.primary-menu li a, .footer-links  li a').click(function () {
+    let getHeaderHeight = $('header').innerHeight();
+   
     $('.primary-menu-outer').removeClass('active');
     var get_scroll_id = $(this).attr('data-scroll');
     $('.primary-menu li a').removeClass("active");
     $(this).addClass("active");
     $("html, body").animate({
-      scrollTop: $(get_scroll_id).offset().top - 70
+      scrollTop: $(get_scroll_id).offset().top - (getHeaderHeight - 50)
     }, 600);
 
   });
@@ -72,7 +74,9 @@ $(function () {
     }, 1000);
 
   }
-
+  $('.carousel').carousel({
+    interval: false,
+  }); 
 })
 
 $(window).on('load', function () {

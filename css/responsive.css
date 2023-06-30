@@ -1,5 +1,5 @@
 @media (max-width: 1199px) {
-  header {
+  header .main-container{
     padding: 10px 0;
   }
 
@@ -40,7 +40,7 @@
 }
 
 @media (max-width: 991px) {
-  header {
+  header .main-container{
     padding: 15px 0;
   }
 
@@ -136,7 +136,7 @@
 }
 
 @media (max-width: 767px) {
-  header {
+  header .main-container{
     padding: 10px 0;
   }
 
@@ -175,14 +175,17 @@
 
 
   #Banner .banner-content {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 
   #Banner .banner-img .container {
     padding: 0;
   }
   #Banner .banner-img img{
-    height: 400px;
+    /* height: 400px; */
+  }
+  .info-bar-section{
+    padding: 20px 0;
   }
   #Discovery .discovery-features .disovery-box .img-icon {
     min-height: auto;
@@ -255,6 +258,12 @@
   #PrivateSale .content h5 {
     font-size: 24px;
   }
+  #Banner .banner-content .banner-socials{
+    padding-left: 0;
+  }
+  #Banner .banner-content .banner-socials ul li img{
+    max-width: 30px;
+  }
 }
 
 
@@ -268,12 +277,16 @@
   }
 
   #Banner .banner-content h1 .small {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   #Banner .banner-content .banner-socials p {
     margin-bottom: 10px;
   }
+  #Banner .banner-content .banner-socials ul li img{
+    max-width: 25px;
+  }
+  
 
   #Banner .banner-video {
     width: 100%;
@@ -281,6 +294,9 @@
     min-height: 275px;
     object-fit: cover;
     object-position: center;
+  }
+  #Banner .banner-content{
+    padding: 25px 0;
   }
 
   .banner-social-icons img {
