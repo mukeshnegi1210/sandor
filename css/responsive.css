@@ -11,6 +11,7 @@
   header .primary-menu li a {
 
     font-size: 16px;
+    padding: 15px;
   }
 
   #Banner {
@@ -21,6 +22,16 @@
 
   footer .footer-links {
     font-size: 24px;
+  }
+
+  #Roadmap .timeline-box-list .timeline-box:nth-child(3) {
+
+    margin-left: 20%;
+  }
+
+  #Roadmap .timeline-box-list .timeline-box:nth-child(4) {
+    margin-left: 20%;
+
   }
 
   footer .info-links {
@@ -98,7 +109,6 @@
     font-size: 30px;
   }
 
-  #PrivateSale {}
 
   #PrivateSale .content h2 {
     font-size: 35px;
@@ -143,7 +153,7 @@
     right: 10px;
     left: auto;
   }
-  
+
   #Discovery,
   #Team,
   #Value,
@@ -160,9 +170,20 @@
   }
 
   #Banner .banner-content h1 .small {
-    font-size: 30px;
+    font-size: 24px;
   }
 
+
+  #Banner .banner-content {
+    padding: 100px 0;
+  }
+
+  #Banner .banner-img .container {
+    padding: 0;
+  }
+  #Banner .banner-img img{
+    height: 400px;
+  }
   #Discovery .discovery-features .disovery-box .img-icon {
     min-height: auto;
   }
@@ -194,7 +215,9 @@
     top: 50% !important;
     bottom: auto !important;
   }
-
+  #Value h2{
+    font-size: 25px;
+  }
   footer .footer-links {
     font-size: 20px;
   }
@@ -220,6 +243,18 @@
     font-size: 16px;
   }
 
+  
+  #PrivateSale .content h2 {
+    font-size: 30px;
+  }
+
+  #PrivateSale .content h6 {
+    font-size: 18px;
+  }
+
+  #PrivateSale .content h5 {
+    font-size: 24px;
+  }
 }
 
 
@@ -275,4 +310,5 @@
   #Roadmap .timeline-box-list .timeline-box h4 {
     font-size: 24px;
   }
+  
 }

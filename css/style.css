@@ -6,7 +6,7 @@ header .primary-menu li a {
     color: #ffffff;
     text-transform: uppercase;
     display: inline-block;
-    padding: 10px;
+    padding: 50px 14px;
     font-size: 28px;
     font-weight: 300;
 }
@@ -24,26 +24,38 @@ header .primary-menu li:last-child {
     position: relative;
     margin-top: 85px;
     display: flex;
+    background: url(../images/banner-bg.jpg) no-repeat center;
+    background-size: cover;
 }
 
 #Banner .banner-content {
     position: absolute;
-    top: 50%;
+    /* top: 50%; */
     left: 0;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     width: 100%;
     z-index: 1;
+    padding: 178px 0;
+}
+
+#Banner .banner-img {
+    width: 100%;
+}
+
+#Banner .banner-img img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
 }
 
 #Banner .banner-content h1 {
     font-weight: 500;
-
+    line-height: 1.3;
 }
 
 #Banner .banner-content h1 .small {
     font-size: 48px;
     font-weight: 300;
-
     display: block;
 }
 
@@ -52,7 +64,8 @@ header .primary-menu li:last-child {
 }
 
 #Banner .banner-content .banner-socials {
-    margin-top: 75px;
+    margin-top: 110px;
+    padding-left: 15px;
 }
 
 #Banner .banner-content .banner-socials p {
@@ -62,7 +75,7 @@ header .primary-menu li:last-child {
 }
 
 #Banner .banner-content .banner-socials .banner-social-icons li+li {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 #Banner .banner-content .banner-socials .banner-social-icons li a {
@@ -77,13 +90,15 @@ header .primary-menu li:last-child {
 #Banner .banner-video {
     width: 100%;
     opacity: 0.9;
+    height: 660px;
+    object-fit: cover;
 }
 
 /* Discovery =========================== */
 #Discovery {
     background: url(../images/discovery-bg.png) no-repeat center fixed;
     background-size: cover;
-    padding: 75px 0;
+    padding: 100px 0 114px;
 }
 
 #Discovery .container {
@@ -103,10 +118,14 @@ header .primary-menu li:last-child {
 
 /* Team =================================== */
 #Team {
-    padding: 75px 0;
+    padding: 50px 0 85px;
     background: url(../images/bg-white.png) no-repeat center;
     background-size: cover;
 
+}
+
+#Team .container {
+    max-width: 1200px;
 }
 
 #Team .title span {
@@ -167,13 +186,19 @@ header .primary-menu li:last-child {
 /* #Value ============================== */
 
 #Value {
-    padding: 75px 0;
+    padding: 85px 0;
     background: url(../images/value-bg.png) no-repeat center fixed;
     background-size: cover;
 }
 
+#Value h2 {
+    font-size: 40px;
+}
+
 #Value p {
     font-weight: 300;
+    font-size: 15px;
+    max-width: 86%;
 }
 
 #Value h4 {
@@ -194,7 +219,7 @@ header .primary-menu li:last-child {
 
 /* PrivateSale =========================== */
 #PrivateSale {
-    padding: 75px 0;
+    padding: 85px 0;
     background: url(../images/privatesale.png) no-repeat center;
     background-size: cover;
 }
@@ -214,17 +239,15 @@ header .primary-menu li:last-child {
 
 }
 
-
-
 /* Roadmap ============================= */
 #Roadmap {
-    padding: 75px 0;
+    padding: 115px 0 50px;
     background: url(../images/roadmap-bg.png) no-repeat center;
     background-size: cover;
 }
 
 #Roadmap .container {
-    max-width: 1100px;
+    max-width: 1070px;
 
 }
 
@@ -263,29 +286,29 @@ header .primary-menu li:last-child {
     height: 16px;
     background-color: #000000;
     border: 2px solid #DBBD8C;
-    bottom: -42px;
+    bottom: -51px;
     left: 50%;
     border-radius: 50%;
     transform: translateX(-50%);
 }
 
 #Roadmap .timeline-box-list .timeline-box:nth-child(1) {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 #Roadmap .timeline-box-list .timeline-box:nth-child(2) {
-    margin-left: 20%;
-    margin-bottom: 60px;
+    margin-left: 17%;
+    margin-bottom: 80px;
 }
 
 #Roadmap .timeline-box-list .timeline-box:nth-child(3) {
-    margin-left: 25%;
+    margin-left: 30%;
     background: linear-gradient(177.6deg, rgba(0, 0, 0, 0.5) 1.82%, rgba(0, 0, 0, 0.1) 97.89%),
         linear-gradient(180deg, #A77F56 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 #Roadmap .timeline-box-list .timeline-box:nth-child(4) {
-    margin-left: 25%;
+    margin-left: 23%;
     background: linear-gradient(177.6deg, rgba(0, 0, 0, 0.5) 1.82%, rgba(0, 0, 0, 0.1) 97.89%),
         linear-gradient(180deg, #A77F56 0%, rgba(0, 0, 0, 0) 100%);
 }
@@ -293,7 +316,7 @@ header .primary-menu li:last-child {
 #Roadmap .timeline-box-list .timeline-box:nth-child(3)::before,
 #Roadmap .timeline-box-list .timeline-box:nth-child(4)::before {
     bottom: auto;
-    top: -38px;
+    top: -47px;
 }
 
 
@@ -303,9 +326,13 @@ header .primary-menu li:last-child {
 
 /* Contacts ============================== */
 #Contacts {
-    padding: 75px 0;
+    padding: 85px 0;
     background: url(../images/contact-bg.png) no-repeat center;
     background-size: cover;
+}
+
+#Contacts .container {
+    max-width: 1120px;
 }
 
 /* footer ============================== */
@@ -342,4 +369,8 @@ footer .footer-social-links ul li a {
 
 footer .footer-social-links ul li a:hover {
     transform: translateY(-5px)
+}
+
+.info-bar-section {
+    padding: 42px 0;
 }
