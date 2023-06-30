@@ -86,6 +86,7 @@
     line-height: 25px;
     border-radius: 50%;
     top: 10px;
+    padding: 0;
   }
 
   .primary-menu {
@@ -152,6 +153,7 @@
   .primary-menu-outer .menu-close {
     right: 10px;
     left: auto;
+    padding: 0;
   }
 
   #Discovery,
